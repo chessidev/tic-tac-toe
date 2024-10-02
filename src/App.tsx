@@ -1,8 +1,8 @@
-import Board from "./components/Board/Board";
+import Board from "./components/Board";
 
 const App = () => {
   return (
-    <div className="container w-screen h-screen mx-auto overflow-clip">
+    <div className="container mx-auto">
       <Board />
     </div>
   );
