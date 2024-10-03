@@ -88,57 +88,21 @@ const Board = () => {
       <div id="board" className="relative flex flex-col items-center gap-2 p-4">
         {/* frist row */}
         <div className="flex gap-2">
-          <div
-            id="0"
-            onClick={handleClick}
-            className="flex items-center justify-center w-40 h-40 cursor-pointer rounded-xl bg-lighterDark"
-          ></div>
-          <div
-            id="1"
-            onClick={handleClick}
-            className="flex items-center justify-center w-40 h-40 cursor-pointer rounded-xl bg-lighterDark"
-          ></div>
-          <div
-            id="2"
-            onClick={handleClick}
-            className="flex items-center justify-center w-40 h-40 cursor-pointer rounded-xl bg-lighterDark"
-          ></div>
+          <div id="0" onClick={handleClick} className="box"></div>
+          <div id="1" onClick={handleClick} className="box"></div>
+          <div id="2" onClick={handleClick} className="box"></div>
         </div>
         {/* second row */}
         <div className="flex gap-2">
-          <div
-            id="3"
-            onClick={handleClick}
-            className="flex items-center justify-center w-40 h-40 cursor-pointer rounded-xl bg-lighterDark"
-          ></div>
-          <div
-            id="4"
-            onClick={handleClick}
-            className="flex items-center justify-center w-40 h-40 cursor-pointer rounded-xl bg-lighterDark"
-          ></div>
-          <div
-            id="5"
-            onClick={handleClick}
-            className="flex items-center justify-center w-40 h-40 cursor-pointer rounded-xl bg-lighterDark"
-          ></div>
+          <div id="3" onClick={handleClick} className="box"></div>
+          <div id="4" onClick={handleClick} className="box"></div>
+          <div id="5" onClick={handleClick} className="box"></div>
         </div>
         {/* third row */}
         <div className="flex gap-2">
-          <div
-            id="6"
-            onClick={handleClick}
-            className="flex items-center justify-center w-40 h-40 cursor-pointer rounded-xl bg-lighterDark"
-          ></div>
-          <div
-            id="7"
-            onClick={handleClick}
-            className="flex items-center justify-center w-40 h-40 cursor-pointer rounded-xl bg-lighterDark"
-          ></div>
-          <div
-            id="8"
-            onClick={handleClick}
-            className="flex items-center justify-center w-40 h-40 cursor-pointer rounded-xl bg-lighterDark"
-          ></div>
+          <div id="6" onClick={handleClick} className="box"></div>
+          <div id="7" onClick={handleClick} className="box"></div>
+          <div id="8" onClick={handleClick} className="box"></div>
         </div>
         {/* Win */}
         <div

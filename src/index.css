@@ -7,3 +7,8 @@
     @apply bg-dark;
   }
 }
+@layer components {
+  .box {
+    @apply flex items-center justify-center w-24 h-24 cursor-pointer md:h-40 md:w-40 rounded-xl bg-lighterDark;
+  }
+}
