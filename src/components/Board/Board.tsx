@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import cross from "../../assets/cross.png";
-import circle from "../../assets/circle.png";
+import cross from "../../assets/cross.webp";
+import circle from "../../assets/circle.webp";
 
 const board = ["", "", "", "", "", "", "", "", ""];
 
