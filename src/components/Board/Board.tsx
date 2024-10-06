@@ -37,7 +37,6 @@ const Board = () => {
   useEffect(() => {
     if (count < 9) {
       if (isWin()) {
-        console.log("Winner");
         setWin(true);
         setCount(10);
       } else if (count % 2 === 0) {
@@ -47,16 +46,12 @@ const Board = () => {
       }
     } else if (count === 9) {
       if (isWin()) {
-        console.log("Winner");
         setWin(true);
         setCount(10);
       } else {
-        console.log("Draw");
         setDraw(true);
       }
     }
-
-    console.log(board);
   }, [count]);
 
   function handleClick(e: React.MouseEvent<HTMLDivElement>) {
